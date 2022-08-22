@@ -1,0 +1,38 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  &__title {
+    text-align: center;
+    color: grey;
+    text-transform: capitalize;
+  }
+
+  &__form {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    &--label {
+    }
+    &--input {
+      border: 2px rgb(94, 179, 94) solid;
+      border-radius: 40px;
+    }
+  }
+}
+
+.main {
+  &__ul {
+    list-style: none;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: (1fr, 1fr);
+    &--li {
+      border: 1px solid rgb(210, 234, 210);
+      border-radius: 20px;
+    }
+  }
+}
